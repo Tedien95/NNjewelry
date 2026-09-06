@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ĐÁ — Trang sức đá quý theo yêu cầu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="logo">Đ<em>á</em>.</a>
+    <div class="nav-links">
+      <a href="#quy-trinh">Quy trình</a>
+      <a href="#chon-da">Chọn đá</a>
+      <a href="#san-pham">Sản phẩm</a>
+      <a href="#dat-hang">Liên hệ</a>
+    </div>
+    <a href="#dat-hang" class="btn nav-cta">Đặt thiết kế</a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Trang sức đá quý thủ công</span>
+        <h1>Mỗi viên đá,<br><em>một câu chuyện</em> riêng bạn.</h1>
+        <p>Chúng tôi thiết kế và chế tác trang sức đá tự nhiên theo đúng mong muốn của bạn — từ chọn loại đá, kiểu dáng đến kích thước. Không có hai món giống nhau.</p>
+        <div class="hero-actions">
+          <a href="#dat-hang" class="btn">Bắt đầu đặt riêng</a>
+          <a href="#san-pham" class="btn btn-outline">Xem sản phẩm</a>
+        </div>
+      </div>
+      <div class="stone-cluster">
+        <div class="stone s1"></div>
+        <div class="stone s2"></div>
+        <div class="stone s3"></div>
+        <div class="stone s4"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quy-trinh">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Quy trình</span>
+        <h2>Từ ý tưởng đến trên tay bạn</h2>
+        <p>Bốn bước rõ ràng, minh bạch — bạn theo dõi được từng giai đoạn chế tác.</p>
+      </div>
+      <div class="process-list reveal">
+        <div class="process-item">
+          <span class="process-num">01</span>
+          <h3>Trao đổi yêu cầu</h3>
+          <p>Bạn mô tả kiểu dáng, loại đá, ngân sách — hoặc gửi ảnh tham khảo.</p>
+        </div>
+        <div class="process-item">
+          <span class="process-num">02</span>
+          <h3>Phác thảo & báo giá</h3>
+          <p>Chúng tôi gửi bản phác thảo cùng báo giá chi tiết trong 48 giờ.</p>
+        </div>
+        <div class="process-item">
+          <span class="process-num">03</span>
+          <h3>Chế tác thủ công</h3>
+          <p>Nghệ nhân chọn đá, cắt mài và lên khuôn theo đúng thiết kế đã duyệt.</p>
+        </div>
+        <div class="process-item">
+          <span class="process-num">04</span>
+          <h3>Kiểm định & giao hàng</h3>
+          <p>Sản phẩm được kiểm định chất lượng và đóng gói cẩn thận trước khi giao.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="chon-da" class="selector-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Thư viện đá</span>
+        <h2>Chọn viên đá cho riêng bạn</h2>
+        <p>Chạm vào từng viên để xem ý nghĩa và chất liệu — đây sẽ là điểm khởi đầu cho thiết kế của bạn.</p>
+      </div>
+      <div class="selector-grid reveal">
+        <div class="swatch-wrap">
+          <div class="swatches" id="swatchList"></div>
+        </div>
+        <div class="stone-preview">
+          <div class="preview-visual">
+            <div class="preview-stone" id="previewStone"></div>
+          </div>
+          <h3 class="preview-name" id="previewName">Ngọc Bích</h3>
+          <p class="preview-meaning" id="previewMeaning">Tượng trưng cho sự cân bằng và bình an — được ưa chuộng trong trang sức phong thủy lâu đời.</p>
+          <div class="preview-tags" id="previewTags">
+            <span class="tag">Xanh lục</span>
+            <span class="tag">Độ cứng 6–7</span>
+            <span class="tag">Bình an</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="san-pham">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Gợi ý thiết kế</span>
+        <h2>Một vài mẫu để bắt đầu</h2>
+        <p>Đây là điểm khởi đầu — mọi chi tiết đều có thể tuỳ chỉnh theo yêu cầu riêng của bạn.</p>
+      </div>
+      <div class="product-grid reveal">
+        <div class="product-card">
+          <div class="product-visual p1"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Vòng tay Ngọc Bích</h3>
+            <p>Chuỗi hạt tròn, size tuỳ chỉnh 14–18cm</p>
+            <div class="price">Từ 890.000₫</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-visual p2"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Dây chuyền Thạch Anh Hồng</h3>
+            <p>Mặt đá đơn, dây bạc 925</p>
+            <div class="price">Từ 1.250.000₫</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-visual p3"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Nhẫn Mắt Hổ</h3>
+            <p>Thiết kế mảnh, viền bạc khắc tay</p>
+            <div class="price">Từ 760.000₫</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-visual p4"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Vòng tay Lapis Lazuli</h3>
+            <p>Kết hợp hạt bạc, phối theo yêu cầu</p>
+            <div class="price">Từ 980.000₫</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-visual p5"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Lắc tay Thạch Anh Vàng</h3>
+            <p>Mang lại năng lượng tích cực, dùng hằng ngày</p>
+            <div class="price">Từ 690.000₫</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-visual p6"><div class="stone"></div></div>
+          <div class="product-info">
+            <h3>Bông tai Thạch Anh Tím</h3>
+            <p>Kiểu dáng nhỏ gọn, đá mài tay thủ công</p>
+            <div class="price">Từ 850.000₫</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dat-hang" class="order-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Đặt thiết kế riêng</span>
+        <h2>Kể cho chúng tôi nghe ý tưởng của bạn</h2>
+        <p>Điền thông tin bên dưới — chúng tôi sẽ liên hệ tư vấn và báo giá trong vòng 48 giờ.</p>
+      </div>
+      <div class="order-grid reveal">
+        <div class="order-note">
+          <h3>Vì sao chọn thiết kế riêng?</h3>
+          <p>Mỗi sản phẩm được chế tác chỉ dành cho một khách hàng — từ việc chọn đá đến kiểu dáng cuối cùng.</p>
+          <ul>
+            <li><span>Thời gian chế tác</span><span>7–14 ngày</span></li>
+            <li><span>Bảo hành</span><span>12 tháng</span></li>
+            <li><span>Chỉnh sửa miễn phí</span><span>1 lần</span></li>
+            <li><span>Giao hàng toàn quốc</span><span>Có</span></li>
+          </ul>
+        </div>
+        <form id="orderForm">
+          <div class="form-row">
+            <div>
+              <label for="name">Họ tên</label>
+              <input type="text" id="name" placeholder="Nguyễn Văn A" required>
+            </div>
+            <div>
+              <label for="phone">Số điện thoại</label>
+              <input type="tel" id="phone" placeholder="09xx xxx xxx" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="type">Loại trang sức</label>
+              <select id="type">
+                <option>Vòng tay</option>
+                <option>Dây chuyền</option>
+                <option>Nhẫn</option>
+                <option>Bông tai</option>
+                <option>Khác</option>
+              </select>
+            </div>
+            <div>
+              <label for="stone">Loại đá mong muốn</label>
+              <select id="stone">
+                <option>Ngọc Bích</option>
+                <option>Thạch Anh Hồng</option>
+                <option>Mắt Hổ</option>
+                <option>Lapis Lazuli</option>
+                <option>Thạch Anh Vàng</option>
+                <option>Thạch Anh Tím</option>
+                <option>Chưa chắc chắn — cần tư vấn</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="note">Mô tả thiết kế mong muốn</label>
+            <textarea id="note" placeholder="Kích thước, kiểu dáng, dịp sử dụng, ảnh tham khảo (nếu có)..."></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn">Gửi yêu cầu đặt hàng</button>
+            <p class="form-success" id="formSuccess">Cảm ơn bạn! Yêu cầu đã được ghi nhận — chúng tôi sẽ liên hệ trong vòng 48 giờ.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <p class="logo" style="margin-bottom:8px;">Đ<em>á</em>.</p>
+      <p>Trang sức đá quý chế tác theo yêu cầu.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#quy-trinh">Quy trình</a>
+      <a href="#chon-da">Chọn đá</a>
+      <a href="#san-pham">Sản phẩm</a>
+      <a href="#dat-hang">Liên hệ</a>
+    </div>
+    <p>© 2026 Đá Trang Sức. Thiết kế tại Việt Nam.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
